@@ -13,6 +13,7 @@
 .search-form input {
   text-align: center;
   color: #262626;
+  border-radius: 3px;
 }
 
 .logo-image {
@@ -25,4 +26,22 @@
 
 .social {
   width: 50px;
+}
+
+#instalogo {
+
+  width: 150px;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+#instalogo svg {
+
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+
 }
