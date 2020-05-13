@@ -11,8 +11,6 @@ import "./components/SearchBar/SearchBarContainer";
 import "./components/PostsContainer/PostsPage";
 import SearchBar from "./components/SearchBar/SearchBarContainer";
 import PostsPage from "./components/PostsContainer/PostsPage";
-import dummyData from "./dummy-data";
-
 
 
 const App = () => {
