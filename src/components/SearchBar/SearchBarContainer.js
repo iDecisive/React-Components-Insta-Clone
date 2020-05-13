@@ -8,8 +8,8 @@ import "./SearchBar.css";
 const SearchBar = () => {
   return (
     <div className="search-bar-wrapper">
-      <div className="social">
-        <FontAwesomeIcon icon={faInstagram} />
+      <div className="social" id="instalogo">
+        <FontAwesomeIcon icon={faInstagram} /> <span> | Instagram</span>
       </div>
       <form className="search-form">
         <input
@@ -18,13 +18,13 @@ const SearchBar = () => {
         />
       </form>
       <div className="social-wrapper">
-        <div className="social">
+        <div className="social rightsocial">
           <FontAwesomeIcon icon={faCompass} />
         </div>
-        <div className="social">
+        <div className="social rightsocial">
           <FontAwesomeIcon icon={faHeart} />
         </div>
-        <div className="social">
+        <div className="social rightsocial">
           <FontAwesomeIcon icon={faCircle} />
         </div>
       </div>
