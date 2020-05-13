@@ -7,7 +7,7 @@ import "./Comment.css";
 const CommentSection = props => {
   // Add state for the comments
 
-  const [comment, updateComment] = useState(props.comments)
+  const [comments, setComments] = useState(props.comments)
 
   let mapComments = props.comments.map(item => {
 
@@ -18,11 +18,20 @@ const CommentSection = props => {
     )
   })
 
+  let addComment = _ => {
+
+    let newCommentIndex = props.comments.length + 1;
+
+    setComments({username: "testName",
+    text: "Testcomment"})
+
+  }
+
   return (
     <div>
       {/* map through the comments data and return the Comment component */}
       {mapComments}
-      <CommentInput />
+      <CommentInput submitComment={setComments}/>
     </div>
   );
 };
