@@ -49,6 +49,14 @@
   width: 10px;
   margin: 10px;
 }
+
+.like-section-wrapper svg {
+
+  width: 20px !important;
+  height: 20px;
+
+}
+
 .like-number {
   width: 75px;
   margin-bottom: 15px;

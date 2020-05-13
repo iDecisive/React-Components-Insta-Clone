@@ -18,13 +18,13 @@ const SearchBar = () => {
         />
       </form>
       <div className="social-wrapper">
-        <div className="social">
+        <div className="social rightsocial">
           <FontAwesomeIcon icon={faCompass} />
         </div>
-        <div className="social">
+        <div className="social rightsocial">
           <FontAwesomeIcon icon={faHeart} />
         </div>
-        <div className="social">
+        <div className="social rightsocial">
           <FontAwesomeIcon icon={faCircle} />
         </div>
       </div>
