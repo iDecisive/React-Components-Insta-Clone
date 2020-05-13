@@ -11,8 +11,6 @@ const LikeSection = props => {
 
     props.setLikes(props.likes+1);
 
-    console.log(props.likes);
-
   }
 
   return (
